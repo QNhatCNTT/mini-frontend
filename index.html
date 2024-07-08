@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>KILALA | Mini Frontend Project</title>
+        <!--===============================================================================================-->
+        <link rel="icon" type="image/png" href="images/logo.png" />
+        <!--===============================================================================================-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/header.css" />
+        <link rel="stylesheet" type="text/css" href="css/footer.css" />
+        <link rel="stylesheet" type="text/css" href="css/banner-carouse.css" />
+        <link rel="stylesheet" type="text/css" href="css/about-us.css" />
+        <link rel="stylesheet" type="text/css" href="css/feature-work.css" />
+        <link rel="stylesheet" type="text/css" href="css/blog.css" />
+        <link rel="stylesheet" type="text/css" href="css/back-to-top.css" />
+        <link rel="stylesheet" type="text/css" href="css/drawer.css" />
+        <!--===============================================================================================-->
+        <script src="components/header/index.js"></script>
+        <script src="components/drawer/index.js"></script>
+        <script src="components/footer/index.js"></script>
+        <script src="components/footer/form-footer.js"></script>
+        <script src="components/banner-carouse/index.js"></script>
+        <script src="components/about-us/index.js"></script>
+        <script src="components/feature-work/index.js"></script>
+        <script src="components/reference/index.js"></script>
+        <script src="components/blog/index.js"></script>
+        <script src="components/back-to-top/index.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <app-header></app-header>
+
+        <!-- Content -->
+        <div class="container">
+            <section id="home">
+                <home-carouse></home-carouse>
+            </section>
+            <section id="about-us">
+                <home-about-us></home-about-us>
+            </section>
+            <section id="feature-work">
+                <home-feature-work></home-feature-work>
+            </section>
+            <section id="reference">
+                <home-reference></home-reference>
+            </section>
+            <section id="blog">
+                <home-blog></home-blog>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <app-footer></app-footer>
+
+        <!-- Back to top -->
+        <btn-back-to-top></btn-back-to-top>
+
+        <app-drawer></app-drawer>
+        <!--===============================================================================================-->
+        <script src="javascripts/index.js"></script>
+    </body>
+</html>

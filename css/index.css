@@ -1,0 +1,115 @@
+/*//////////////////////////////////////////////////////////////////
+[ REBOOT ]*/
+*,
+*:before,
+*:after {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #666666;
+    scroll-behavior: smooth;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    overflow: hidden auto;
+}
+
+body.hidden {
+    overflow: hidden hidden;
+}
+
+/*---------------------------------------------*/
+a {
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/*---------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+    line-height: unset;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+ul,
+li {
+    margin: 0px;
+    list-style-type: none;
+}
+
+/*---------------------------------------------*/
+input,
+textarea,
+label {
+    display: block;
+    outline: none;
+    border: none;
+    margin: 0;
+}
+
+/*---------------------------------------------*/
+button {
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+iframe {
+    border: none;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    top: 60px;
+}
+
+.container section {
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+    scroll-margin: 60px;
+}
+
+@media screen and (min-width: 1025px) {
+    .container {
+        top: 0;
+    }
+
+    .container section {
+        scroll-margin: 80px;
+    }
+}
